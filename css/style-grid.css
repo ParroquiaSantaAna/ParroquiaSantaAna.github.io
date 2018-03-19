@@ -35,6 +35,7 @@
 .sidebar {
 	display: none;
 }
+
 h2 {
 	padding:2%;
 }
@@ -42,7 +43,9 @@ h2 {
 
 	@media all and (min-width: 768px)  {
 
-
+		.misas h2 {
+			font-size: 1.6em;
+		}
 
 		.sectionTitle {
 			display: none;
