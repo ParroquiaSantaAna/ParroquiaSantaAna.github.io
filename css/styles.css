@@ -1,0 +1,205 @@
+
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('../fonts/zantroke-webfont.woff2') format('woff2'),
+         url('../fonts/zantroke-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'barlowregular';
+    src: url('../fonts/Barlow-Regular-webfont.eot');
+    src: url('../fonts/Barlow-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Barlow-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Barlow-Regular-webfont.woff') format('woff'),
+         url('../fonts/Barlow-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Barlow-Regular-webfont.svg#barlowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: "barlowregular", arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'zantrokeregular', serif;
+}
+
+h2 {
+  font-size: 1em;
+  color: #FBB03B;
+}
+
+
+
+
+.misa-domingos {
+  padding-top: 1.8vh;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 17%;
+  background-image: url("../img/dialog-box.svg");
+  background-repeat: no-repeat;
+}
+
+.misa-domingos h2 {
+  hyphens: auto;
+  line-height: 0.8;
+  font-size:2.4vw;
+}
+
+.misa-domingos p {
+  font-size: 2vw;
+  font-family: 'zantrokeregular';
+  line-height: 0.9;
+  color: white;
+}
+
+.home-nav {
+  padding-top: 1%;
+}
+
+
+
+a:hover {
+  color: #93278F;
+}
+
+a:active {
+  color: #FBB03B;
+}
+
+.misas {
+  background-color: #93278F;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+    .dias {
+      text-align: right;
+    }
+
+    .horas {
+      text-align: left;
+    }
+
+    .horas span {
+      border-radius: 5px;
+      border: 1.8px solid #FBB03B;
+      padding: .8%;
+      color: #FBB03B;
+    }
+
+    .dias, .horas{
+      line-height: 180%;
+    }
+
+    .misas p {
+      color: white;
+    }
+
+    .confesion{
+      border-radius: 5px;
+      border: 1.8px solid white;
+      padding: .2em;
+    }
+
+    .confesion strong {
+      color: #FBB03B;
+    }
+
+.nosotros {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+  .frase {
+    font-family: "zantrokeregular";
+    hyphens: auto;
+  }
+
+    .frase p {
+    font-size: 3vw;
+    line-height: 100%;
+    }
+
+    .about-text {
+      color: #4D4D4D;
+    }
+
+.contacto {
+  background-color: #93278F;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+  .contacto p {
+    color: white;
+    padding-top: 3%;
+  }
+
+
+
+.web-design {
+  font-family: 'zantrokeregular';
+  background-color: #FBB03B;
+  text-align: center;
+  padding: .1em;
+  font-size: 15px;
+}
+
+  .web-design p {
+    color: #93278F;
+  }
+
+  .web-design a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .fixed-nav {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: .3%;
+    padding-bottom: .3%;
+  }
+
+  .fixed-nav ul {
+    font-family: "zantrokeregular";
+    font-size: 1.3em;
+  }
+
+  .toggle {
+    color: white;
+    background-color: #93278F;
+  }
+
+  .sidebar {
+    background-color: white;
+    width: 100%;
+  }
+
+  .sidebar li {
+    border-bottom: 1px solid #93278F;
+    text-align: center;
+    color: #4D4D4D;
+  }
+
+  /* CLASSES TO BE ADDED WITH JS */
+
+  .active {
+    color: #93278F;
+  }
+
+  .hide {
+    display:none;
+  }
+
+  section .active {}
